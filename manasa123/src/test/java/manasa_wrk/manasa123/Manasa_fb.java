@@ -18,7 +18,7 @@ public class Manasa_fb {
 		driver.manage().timeouts().implicitlyWait(120,TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com/");
 
-	
+	//edit in git
 
 		driver.findElement(By.xpath("//input[@id='u_0_1']")).sendKeys("edit");
 		driver.findElement(By.xpath("//input[@id='u_0_3']")).sendKeys("g");
