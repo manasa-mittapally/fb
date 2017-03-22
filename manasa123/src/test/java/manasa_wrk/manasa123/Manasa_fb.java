@@ -17,7 +17,7 @@ public class Manasa_fb {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(120,TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com/");
-		driver.findElement(By.xpath("//input[@id='u_0_1']")).sendKeys("abby");
+		driver.findElement(By.xpath("//input[@id='u_0_1']")).sendKeys("edit");
 		driver.findElement(By.xpath("//input[@id='u_0_3']")).sendKeys("g");
 		driver.findElement(By.xpath("//input[@id='u_0_6']")).sendKeys("1223123123");
 		driver.findElement(By.xpath("//input[@id='u_0_l']")).click();
