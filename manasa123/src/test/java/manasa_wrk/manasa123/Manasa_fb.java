@@ -25,7 +25,7 @@ public class Manasa_fb {
 		driver.findElement(By.xpath("//input[@id='u_0_3']")).sendKeys("g");
 
 		driver.findElement(By.xpath("//input[@id='u_0_6']")).sendKeys("1223123123");
-		driver.findElement(By.xpath("//input[@id='u_0_l']")).click();
+		//driver.findElement(By.xpath("//input[@id='u_0_l']")).click();
 		
 	}
 
