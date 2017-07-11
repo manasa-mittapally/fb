@@ -21,7 +21,7 @@ public class Manasa_fb {
 	//edit in git
 		//edit in ec
 
-		driver.findElement(By.xpath("//input[@id='u_0_1']")).sendKeys("edit");
+		driver.findElement(By.xpath("//input[@id='u_0_1']")).sendKeys("edit11");
 		driver.findElement(By.xpath("//input[@id='u_0_3']")).sendKeys("g");
 
 		driver.findElement(By.xpath("//input[@id='u_0_6']")).sendKeys("1223123123");
